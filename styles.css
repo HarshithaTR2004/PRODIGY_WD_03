@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background-color: #420000;
+   color: aliceblue;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 60px;
+  }
+  
+  #gameBoard {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: #420000;
+    border: 5px solid aliceblue;
+    cursor: pointer;
+    font-size: 90px;
+    color: aliceblue;
+   
+  }
+  
+  .cell:hover {
+    background-color: #420000;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #420000;
+    color: aliceblue;
+  }
+   #winner {
+font-size: 30p;
+  }
